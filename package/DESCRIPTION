@@ -2,9 +2,9 @@ Package: b2p
 Title: What the Package Does (One Line, Title Case)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Bradd", "Mendoza", , "bradd.mendoza@ucr.ac.crm", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0009-0005-3214-4599"))
+Description: .
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
         license
 Encoding: UTF-8
