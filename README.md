@@ -22,7 +22,11 @@ Refer to the tsv file in the Example folder for the correct Bracken file format.
 Note: The metadata file must have the same sample names as those in the Bracken file, but without the ".bracken_num" extension. See example.
 Please specify the name of the column with sample sample IDs in the metadata file. 
 ```R
-physeq <- b2p(file = "bracken.tsv", database = "path/to/database.sql")
+# Example usage
+phyloseq_object <- b2p(file = "bracken.tsv", database = "database/accessionTaxa.sql")
+ 
+# Example with metadata and custom sample column
+phyloseq_object <- b2p(file = "bracken.tsv", database = "database/accessionTaxa.sql", mdata = "metadata.csv", sample_column = "SampleName")
 ```
 
 
