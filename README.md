@@ -1,6 +1,6 @@
 # b2p: Bracken to Phyloseq
 
-`b2p`is an R package that converts Bracken output into phyloseq objects for microbial diversity analysis.
+`b2p`is an R package that converts Bracken output into phyloseq objects for microbial diversity analyses.
 
 ## Installation
 
