@@ -48,7 +48,7 @@ b2p <- function(file, database, mdata = NULL, sample_column = "SampleID") {
   # If metadata file is provided
   if (!is.null(mdata)) {
     # Load metadata
-    meta_data <- read.csv(mdata, sep = ";")
+    meta_data <- read.csv(mdata, sep = ",")
     
     # Check if the specified sample_column exists
     if (!sample_column %in% colnames(meta_data)) {
