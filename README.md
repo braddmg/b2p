@@ -7,6 +7,7 @@
 To install `b2p` from GitHub:
 
 ```R
+install.packages("taxonomizr") #Dependency
 install.packages("devtools")
 devtools::install_github("braddmg/b2p/package")
 ```
